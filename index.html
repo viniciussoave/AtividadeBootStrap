@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>FitSync</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg" style="background-color: #C4FF61" data-bs-theme="light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#carrosel">
+            <img src="./img/logo.png" alt="FitSync" height="50px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="carrosel" class="carousel carousel-light slide" style="height: 500px;">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./img/carrossel1.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>O Futuro da Gestão Fitness Chegou</h5>
+                <p>Leve sua academia para o próximo nível com um sistema robusto, seguro e 100% na nuvem. Acesse de qualquer lugar, a qualquer hora.</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="./img/carrossel2.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Automação que Trabalha por Você</h5>
+                <p>Deixe que o sistema cuide dos lembretes de pagamento, controle de acesso e renovações de planos, enquanto sua equipe foca no atendimento de excelência.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/carrossel3.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Pronto para Evoluir?</h5>
+                <p>Junte-se a centenas de academias que já otimizaram sua gestão com nossa plataforma. Agende uma conversa e descubra nosso potencial.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="container-fluid" id="sobre">
+    <div class="row p-3 m-2">
+        <h2 class="center">Tecnologia que Impulsiona Academias</h2>
+        <p>Simplificamos a gestão para que você possa se dedicar a inspirar seus alunos. Conheça os pilares que guiam nosso trabalho:</p>
+        <h3>Nossa Missão</h3>
+        <p>Empoderar donos e gestores de academias com uma ferramenta inteligente e intuitiva, que automatiza tarefas administrativas, otimiza processos financeiros e fortalece o relacionamento com os alunos, transformando a gestão em um diferencial competitivo.</p>
+        <h3>Nossa Visão</h3>
+        <p>Ser a plataforma líder e a parceira mais confiável para academias em todo o Brasil, reconhecida pela inovação constante, suporte de excelência e pelo impacto real que geramos no crescimento dos nossos clientes.</p>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
